@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/success.css">
+  <link rel="stylesheet" href="/css/myheader.css">
+  <title>Success</title>
+</head>
+<body>
+
+       <!-- Header -->
+  <!-- Desktop -->
+  <nav class="navbar">
+    <a class="logo" href="#">
+      <img src="./images/Header/header-img.png" alt="">
+    </a>
+    <div class="nav-content">
+      <ul class="nav-links">
+        <li>
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Curriculum</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Previous Techies</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Mentors</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="nav-btn">
+      <button>Join StartNG</button>
+    </div>
+
+    <!-- Nav Toggler -->
+    <div class="nav-toggler" onclick="openNav()">
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+  </nav>
+
+  <!-- Backdrop -->
+  <div class="backdrop" onclick="closeNav()"></div>
+
+  <!-- Mobile -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">
+      <img src="/images/Header/home.png" alt="">
+      <span>Home</span>
+    </a>
+    <a href="#">
+      <img src="/images/Header/curriculum.png" alt="">
+      <span>Curriculum</span>
+    </a>
+    <a href="#">
+      <img src="/images/Header/previous-techies.png" alt="">
+      <span>Previous Techies</span> 
+    </a>
+    <a href="#">
+      <img src="/images/Header/mentors.png" alt="">
+      <span>Mentors</span>
+    </a>
+    <a href="#">
+      <img src="/images/Header/contact.png" alt="">
+      <span>Contact</span>
+    </a>
+    <a href="#">
+      <div class="sidenav-btn">
+        <button>Join StartNG</button>
+      </div>
+    </a>
+    
+  </div>
+
+
+  <div class="success-msg">
+    <div class="container">
+      <div class="content text-center">
+        <h1>Awesome your registration was successful</h1>
+        <p>Thank you for registering with us, an email has been sent to you<br>
+           about all you need to get started.</p>
+      </div>
+      <div class="back text-center">
+        <a href="#" class="btn">Back</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="logo text-center">
+          <img src="/images/Header/header-img.png" alt="">
+        </div>
+        <div class="row ">
+          <div class="foot-logo col">
+            <img src="/images/Header/header-img.png" alt="">
+          </div>
+          <div class="quick-links d-flex flex-column col">
+            <h4>Quick Links</h4>
+            <a href="">Home</a>
+            <a href="">Curriculum</a>
+            <a href="">Previous Techies</a>
+            <a href="">FAQ</a>
+            <a href="">Request Certificates</a>
+            <a href="">Terms and Conditions</a>
+          </div>
+          <div class="contact-us col">
+            <h5>Contact Us</h5>
+            <a href="">hello@start.ng</a>
+          </div>
+          <div class="office d-flex flex-column col">
+            <h5>Office Address</h5>
+            <a href="">92 Wolverine Avenue,</a>
+            <a href="">Ikeja,</a>
+            <a href="">Lagos State, Nigeria.</a>
+          </div>
+          <div class="follow col">
+            <h5>Follow Us</h5>
+            <img src="/images/Header/facebook.svg" alt="">
+            <img src="/images/Header/twitter.svg" alt="">
+          </div>
+        </div>
+        <hr>
+        <p class="text-center"> © 2020 StartNG</p>
+       
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/header.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

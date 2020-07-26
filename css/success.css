@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta-Thin.woff") format("woff"),
+       url("fonts/Averta-Thin.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta.woff") format("woff"),
+       url("fonts/Averta.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta-Semibold.woff") format("woff"),
+       url("fonts/Averta-Semibold.otf") format("opentype");
+  font-weight: 600;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+.success-msg{
+  height:70vh;
+  display: grid;
+  place-items: center;
+}
+.back{
+  margin:2em 0;
+}
+.content h1{
+  color: #0B0B10;
+  font-family: Averta;
+}
+.content p{
+  color: #514949;
+  font-family: Averta;
+}
+.back .btn{
+  background: #E7332B;
+  padding:.6em 2em;
+  border-radius: 1px !important;
+  color: #ffff;
+  font-family: Averta;
+  transition: all .5s ease;
+}
+.back .btn:hover{
+  background: transparent;
+  color:#0B0B10;
+  border:1px solid #ccc;
+}
+.footer{
+  margin:2em 0;
+}
+.footer .row{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.footer .row .foot-logo{
+  margin:0 1em;
+}
+
+.footer .row .col{
+  margin:0 !important;
+}
+.footer .row .quick-links a{
+  margin:.3em 0;
+  color: #514949;
+}
+.footer .row .contact-us a{
+  color: #514949;
+}
+.footer .row .office a{
+  color: #514949;
+  text-decoration: none;
+}
+.footer .row .follow img{
+  margin:0 .4em;
+}
+.footer .logo{
+  display:none;
+}
+
+
+@media only screen and (max-width:999px){
+  .footer .row .foot-logo{
+    text-align: center;
+    display: none;
+  }
+  .footer .container{
+    margin:auto;
+    
+   }
+  .footer .row{
+    display:flex !important;
+    justify-content: space-between !important;
+    
+    
+  }
+ 
+  .footer .logo{
+    display: flex;
+    justify-content: center;
+    margin:1.5em 0;
+  }
+  
+  
+}
+@media only screen and (max-width:770px){
+  .footer .row .col{
+    flex:50%;
+    
+  }
+  .footer .row{
+    margin:0 auto !important;
+    width:100vw;
+  }
+}
+
+
+
+
